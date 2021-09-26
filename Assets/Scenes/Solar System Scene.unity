@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 149104127}
   - component: {fileID: 149104126}
   - component: {fileID: 149104130}
+  - component: {fileID: 149104131}
   m_Layer: 0
   m_Name: Moon
   m_TagString: Untagged
@@ -233,6 +234,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 149104129}
   speed: 60
+--- !u!114 &149104131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149104125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99a9c46f898aac142bb5339e7dd2e0a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 929192541}
+  speed: 10
 --- !u!1 &184465153
 GameObject:
   m_ObjectHideFlags: 0
@@ -595,6 +610,7 @@ GameObject:
   - component: {fileID: 929192539}
   - component: {fileID: 929192538}
   - component: {fileID: 929192542}
+  - component: {fileID: 929192543}
   m_Layer: 0
   m_Name: Earth
   m_TagString: Untagged
@@ -692,3 +708,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 929192541}
   speed: 15
+--- !u!114 &929192543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929192537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99a9c46f898aac142bb5339e7dd2e0a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 359288716}
+  speed: 10
